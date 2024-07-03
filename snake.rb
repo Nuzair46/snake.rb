@@ -3,7 +3,7 @@ require 'curses'
 class SnakeGame
   SCREEN_TIMEOUT = 100
   BIG_FOOD_TIMER = 200
-  BIG_FOOD_RANDOM_MAX = 1
+  BIG_FOOD_RANDOM_MAX = 4
 
   UP = Curses::Key::UP
   DOWN = Curses::Key::DOWN
